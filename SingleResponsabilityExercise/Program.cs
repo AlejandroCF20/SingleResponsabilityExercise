@@ -1,5 +1,14 @@
-﻿using SingleResponsabilityExercise;
+using SingleResponsabilityExercise;
 Pedido pedido = new Pedido();
+
+/* 
+  Nos encontramos con un simple programa que toma datos a través de una consola, los
+  procesa y, *teóricamente* los envía a una base de datos, en este caso, para crear
+  un pedido. Sin embargo, se evidencia que este programa tiene falencias en cuanto al
+  principio de responsabilidad única. Con base a lo que has aprendido, refactoriza el
+  programa como sientas que es correcto para cumplir el principio de responsabilidad
+  única. Hazlo tal cual como desees.
+*/
 
 Console.WriteLine("Bienvenido a la consola para creación de pedidos");
 Console.WriteLine("Escriba qué productos quiere agregar, separados por una coma");
